@@ -78,9 +78,14 @@ const config: Config = {
           label: 'Docs',
         },
         {to: 'project', label: 'Project', position: 'left'},
-        {to: '/blog', label: 'Blog', position: 'left'},
+        // {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://www.buymeacoffee.com/hungpt',
+          label: 'Buy me a coffee ☕',
+          position: 'right',
+        },
+        {
+          href: 'https://www.github.com/hungpt17102k',
           label: 'GitHub',
           position: 'right',
         },
@@ -136,6 +141,15 @@ const config: Config = {
       darkTheme: prismThemes.vsDark,
       additionalLanguages: ['csharp'],
     },
+    plugins: [
+      [
+        'vercel-analytics',
+        {
+          debug: true,
+          mode: 'auto',
+        },
+      ],
+    ],
   } satisfies Preset.ThemeConfig,
 };
 
