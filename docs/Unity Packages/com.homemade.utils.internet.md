@@ -6,7 +6,7 @@ Github: **_[Link](https://github.com/hungpt17102k/com.homemade.utils.internet)_*
 :::
 
 <!-- Introduction -->
-This is simple package for singleton, can use in any project.
+This is simple package for internet checking, can use in any project.
 
 ## 1. Import
 
