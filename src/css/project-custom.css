@@ -1,0 +1,84 @@
+/* App.css */
+.app {
+    padding: 20px;
+    background-color: #f4f4f4; /* Background color for the app */
+  }
+  
+  .projects-dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center; /* Center align the project cards */
+    padding: 50px;
+  }
+  
+  .project-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    width: 300px;
+    overflow: hidden; /* Ensure no overflow */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Adds space between cards */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    transition: transform 0.2s, box-shadow 0.2s; /* Adds a smooth transition for hover effects */
+    outline: none; /* Removes outline for better styling */
+  }
+
+  .project-card:hover,
+  .project-card:focus {
+    transform: translateY(-5px); /* Lifts the card slightly */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Adds a stronger shadow */
+  }
+  
+  .image-container {
+    width: 100%;
+    height: 150px; /* Adjust height as needed */
+    background-size: cover; /* Ensures the background covers the container */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background from repeating */
+  }
+  
+  .card-info {
+    padding: 10px;
+    position: relative; /* Allows absolute positioning of the badge */
+    
+  }
+  
+  .badge {
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .card-content {
+    margin-top: 5px;
+  }
+  
+  .title {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: black;
+  }
+  
+  .date {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 5px; /* Adds space between date and actions */
+  }
+  
+  .card-actions {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .more-options {
+    background: none;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    font-size: 20px;
+  }
