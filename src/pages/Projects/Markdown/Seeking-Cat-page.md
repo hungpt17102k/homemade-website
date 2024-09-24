@@ -17,11 +17,10 @@ Can you find all the cats and prove yourself as the ultimate cat finder in **"Se
 This is our first game, and my first time published to Steam. <br/>
 Hope you guys will support us and play our games.
 
+## Steam
+
+<iframe src="https://store.steampowered.com/widget/3169040/" frameborder="0" width="646" height="190"></iframe>
+
 ## Itch.io
 
 <iframe frameborder="0" src="https://itch.io/embed/2904839?linkback=true" width="552" height="167"><a href="https://homemadestudio.itch.io/seeking-cat">Seeking Cat by HomeMadeStudio</a></iframe>
-
-
-## Steam
-
-Comming soon
