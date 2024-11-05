@@ -58,7 +58,7 @@ const config: Config = {
     // Theme default
     colorMode: {
       defaultMode: 'dark',
-      disableSwitch: false,
+      disableSwitch: true,
       respectPrefersColorScheme: false,
     },
 
@@ -80,19 +80,19 @@ const config: Config = {
         {to: 'project', label: 'Project', position: 'left'},
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://www.buymeacoffee.com/hungpt',
+          to: 'https://www.buymeacoffee.com/hungpt',
           label: 'Buy me a coffee ☕',
           position: 'right',
         },
         {
-          href: 'https://www.github.com/hungpt17102k',
+          to: 'https://www.github.com/hungpt17102k',
           label: 'GitHub',
           position: 'right',
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: 'light',
       links: [
         {
           title: 'Docs',
@@ -115,8 +115,12 @@ const config: Config = {
             //   href: 'https://discordapp.com/invite/docusaurus',
             // },
             {
+              label: 'Facebook',
+              to: 'https://www.facebook.com/profile.php?id=61566020592703',
+            },
+            {
               label: 'Twitter',
-              href: 'https://x.com/HomeMade_St',
+              to: 'https://x.com/HomeMade_St',
             },
           ],
         },
@@ -129,12 +133,12 @@ const config: Config = {
             // },
             {
               label: 'GitHub',
-              href: 'https://www.github.com/hungpt17102k',
+              to: 'https://www.github.com/hungpt17102k',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} HomeMade, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} HomeMade, St. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

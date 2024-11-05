@@ -1,0 +1,99 @@
+/* Basic page styles */
+body {
+    background-color: #1b1b1d;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .home-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  /* Header styles */
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .header h1 {
+    font-size: 2.5em;
+    color: #58b4d1;
+    margin-bottom: 20px;
+  }
+  
+  .header p {
+    font-size: 1.2em;
+    color: #e0e0e0;
+    margin-bottom: 40px;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-image {
+    width: 80px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 20px; /* Space between the logo and text */
+    margin-bottom: 20px;
+  }
+  
+  /* Features section */
+  .features {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 40px 0;
+  }
+  
+  .feature-item {
+    display: flex;
+    width: 100%;
+    background-color: #292828;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    gap: 60px; /* Space between columns */
+  }
+  
+  .feature-item h2 {
+    color: #58b4d1;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+  }
+  
+  .feature-item p {
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+
+  .feature-image {
+    width: 30%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .feature-description {
+    width: 100%;
+  }
+  
+  .btn-dark {
+    background-color: #414141;
+    color: #e0e0e0;
+    border: none;
+    padding: 12px 24px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
